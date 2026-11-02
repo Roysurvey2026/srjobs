@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14a37f"/><stop offset="1" stop-color="#0b5d4b"/></linearGradient></defs>
+<rect width="512" height="512" rx="112" fill="url(#g)"/>
+<g transform="translate(56,0) scale(.78)">
+<g transform="translate(0,20)">
+<path d="M96 300 L122 226 Q130 206 152 206 L292 206 Q314 206 328 224 L368 270 Q400 274 410 292 L410 330 Q410 342 398 342 L108 342 Q96 342 96 330 Z" fill="#ffffff"/>
+<path d="M146 224 L286 224 L322 268 L134 268 Z" fill="#0b5d4b" opacity=".55"/>
+<circle cx="160" cy="344" r="36" fill="#1f2933"/><circle cx="160" cy="344" r="15" fill="#cbd2d9"/>
+<circle cx="348" cy="344" r="36" fill="#1f2933"/><circle cx="348" cy="344" r="15" fill="#cbd2d9"/>
+</g>
+<circle cx="318" cy="196" r="78" fill="#ffffff" fill-opacity=".25" stroke="#ffffff" stroke-width="22"/>
+<line x1="374" y1="252" x2="444" y2="322" stroke="#ffffff" stroke-width="30" stroke-linecap="round"/>
+</g>
+<text x="256" y="452" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="150" fill="#ffffff" letter-spacing="6">SR</text></svg>
