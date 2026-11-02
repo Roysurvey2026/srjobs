@@ -11,9 +11,27 @@
 <meta name="apple-mobile-web-app-title" content="SR Jobs">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#0b5d4b">
-<style>html,body{margin:0;height:100%;background:#0b5d4b;color:#fff;font:18px sans-serif;display:flex;align-items:center;justify-content:center}</style>
+<style>
+html,body{margin:0;height:100%;background:#0b5d4b;color:#fff;font-family:Arial,Helvetica,sans-serif}
+.w{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;box-sizing:border-box}
+img{width:120px;height:120px;border-radius:28px}
+h1{margin:16px 0 4px;font-size:28px}
+p{margin:6px 0;opacity:.9;font-size:15px}
+a.b{display:inline-block;margin-top:22px;background:#fff;color:#0b5d4b;font-weight:700;font-size:18px;padding:14px 34px;border-radius:12px;text-decoration:none}
+.s{margin-top:26px;font-size:14px;opacity:.85;max-width:320px;line-height:1.5}
+</style>
 </head><body>
-<div>Opening SR Jobs…</div>
-<script>location.replace('https://script.google.com/macros/s/AKfycbxkfdg9p1Kn_1yz7DrJzJIxaXSGHxuBDduVq3rFP8PvdOKbb6oemp6eCUrKMeBsG2zqSw/exec');</script>
-<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(function(){});}</script>
+<div class="w" id="w">
+<img src="icon-192.png" alt="SR Jobs">
+<h1>SR Jobs</h1>
+<p>Survey job tracker</p>
+<a class="b" href="https://script.google.com/macros/s/AKfycbxkfdg9p1Kn_1yz7DrJzJIxaXSGHxuBDduVq3rFP8PvdOKbb6oemp6eCUrKMeBsG2zqSw/exec">Open SR Jobs</a>
+<div class="s" id="s">To keep it on your phone: tap the browser menu (⋮) and choose <b>Install app</b> or <b>Add to Home screen</b>, on this page.</div>
+</div>
+<script>
+var U='https://script.google.com/macros/s/AKfycbxkfdg9p1Kn_1yz7DrJzJIxaXSGHxuBDduVq3rFP8PvdOKbb6oemp6eCUrKMeBsG2zqSw/exec';
+var standalone=(window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches)||window.navigator.standalone===true;
+if(standalone){document.getElementById('s').style.display='none';location.replace(U);}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(function(){});}
+</script>
 </body></html>
